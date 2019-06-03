@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VSp-A1-UMb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -217,12 +217,27 @@
                     </view>
                     <connections>
                         <outlet property="photoImageView" destination="YSS-wN-D3M" id="YXE-tx-HDf"/>
-                        <outlet property="photoSrcollView" destination="7ip-LY-wxm" id="URf-CI-km5"/>
+                        <outlet property="photoScrollView" destination="7ip-LY-wxm" id="Vd2-vF-pQn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8z-SA-BkM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2848.8000000000002" y="80.50974512743629"/>
+        </scene>
+        <!--Video View Controller-->
+        <scene sceneID="LWH-Wl-3q6">
+            <objects>
+                <viewController storyboardIdentifier="VideoViewController" id="oRf-4l-DEm" customClass="VideoViewController" customModule="LockBox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E67-a1-77r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hnM-vU-uKY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uyr-aX-ohh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3780" y="81"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="C3x-wV-ku9">

@@ -27,23 +27,12 @@ class PhotoViewController: UIViewController {
     
     func setupImage () {
         
-        switch content.isVideo {
-        case true:
-            
-            guard let url = FileService.loadWithFM(content.path!), let image = url.thumbnailForVideo() else {
-                return
-            }
-            
-            photoImageView.image = image
-            
-        case false:
-            
-            guard let url = FileService.loadWithFM(content.path!), let image = UIImage(contentsOfFile: url.path) else {
-                return
-            }
-            
-            photoImageView.image = image
+        guard let url = FileService.loadWithFM(content.path!), let image = UIImage(contentsOfFile: url.path) else {
+            return
         }
+        
+        self.photoImageView.image = image
+        
     }
 
 }

@@ -30,6 +30,7 @@
 		0451A61922A0160500C47305 /* KeyHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451A61722A0160500C47305 /* KeyHeaderCell.swift */; };
 		0451A61A22A0160500C47305 /* KeyHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0451A61822A0160500C47305 /* KeyHeaderCell.xib */; };
 		0F93AC6422A37B0D00A1FD54 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F93AC6322A37B0D00A1FD54 /* PhotoViewController.swift */; };
+		0F93AC6622A5CC5500A1FD54 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F93AC6522A5CC5500A1FD54 /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		0451A61722A0160500C47305 /* KeyHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyHeaderCell.swift; sourceTree = "<group>"; };
 		0451A61822A0160500C47305 /* KeyHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KeyHeaderCell.xib; sourceTree = "<group>"; };
 		0F93AC6322A37B0D00A1FD54 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		0F93AC6522A5CC5500A1FD54 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				041A3CC122A02ED90074D01D /* MediaViewController.swift */,
 				041EC64222A1658800A34CF4 /* MediaCollectionCell.swift */,
 				0F93AC6322A37B0D00A1FD54 /* PhotoViewController.swift */,
+				0F93AC6522A5CC5500A1FD54 /* VideoViewController.swift */,
 			);
 			path = MediaScene;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				041A3CC822A033200074D01D /* Constants.swift in Sources */,
 				0451A5F722A00F2C00C47305 /* AppDelegate.swift in Sources */,
 				0451A61222A0156400C47305 /* KeyViewController.swift in Sources */,
+				0F93AC6622A5CC5500A1FD54 /* VideoViewController.swift in Sources */,
 				041A3CC222A02ED90074D01D /* MediaViewController.swift in Sources */,
 				041EC64722A16C5600A34CF4 /* URL+Extension.swift in Sources */,
 				0451A61922A0160500C47305 /* KeyHeaderCell.swift in Sources */,

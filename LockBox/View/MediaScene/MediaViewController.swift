@@ -72,10 +72,21 @@ extension MediaViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
+        
+        let content = viewModel.content[indexPath.row]
+        
+        switch content.isVideo {
+        case true:
+            let videoVC = storyboard?.instantiateViewController(withIdentifier: "VideoViewController") as! VideoViewController
+            videoVC.content = content
+            navigationController?.pushViewController(videoVC, animated: true)
+        case false:
+            let photoVC = storyboard?.instantiateViewController(withIdentifier: "PhotoViewController") as! PhotoViewController
+            photoVC.content = content
+            navigationController?.pushViewController(photoVC, animated: true)
+        }
     
-        let vc = storyboard?.instantiateViewController(withIdentifier: "PhotoViewController") as! PhotoViewController
-        vc.content = viewModel.content[indexPath.row]
-        navigationController?.pushViewController(vc, animated: true)
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
