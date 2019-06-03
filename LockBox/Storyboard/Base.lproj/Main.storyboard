@@ -190,18 +190,16 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YSS-wN-D3M">
-                                        <rect key="frame" x="38" y="32" width="299" height="300"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="LPD-Dd-QA6"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="YSS-wN-D3M" firstAttribute="top" secondItem="7ip-LY-wxm" secondAttribute="top" constant="32" id="4PH-Jm-b76"/>
-                                    <constraint firstAttribute="bottom" secondItem="YSS-wN-D3M" secondAttribute="bottom" constant="315" id="84E-f1-4w6"/>
-                                    <constraint firstAttribute="trailing" secondItem="YSS-wN-D3M" secondAttribute="trailing" constant="37" id="F3S-5N-u1f"/>
-                                    <constraint firstItem="YSS-wN-D3M" firstAttribute="centerX" secondItem="7ip-LY-wxm" secondAttribute="centerX" id="Mri-3K-TfB"/>
-                                    <constraint firstItem="YSS-wN-D3M" firstAttribute="leading" secondItem="7ip-LY-wxm" secondAttribute="leading" constant="38" id="TnC-4n-Vrz"/>
+                                    <constraint firstItem="YSS-wN-D3M" firstAttribute="leading" secondItem="7ip-LY-wxm" secondAttribute="leading" id="2Zx-4j-MpT"/>
+                                    <constraint firstItem="YSS-wN-D3M" firstAttribute="centerX" secondItem="7ip-LY-wxm" secondAttribute="centerX" id="4hq-NP-1e9"/>
+                                    <constraint firstItem="YSS-wN-D3M" firstAttribute="top" secondItem="7ip-LY-wxm" secondAttribute="top" id="5hA-t5-MsK"/>
+                                    <constraint firstItem="YSS-wN-D3M" firstAttribute="centerY" secondItem="7ip-LY-wxm" secondAttribute="centerY" id="IOT-MW-ytF"/>
+                                    <constraint firstAttribute="bottom" secondItem="YSS-wN-D3M" secondAttribute="bottom" id="TUV-wA-Zqa"/>
+                                    <constraint firstAttribute="trailing" secondItem="YSS-wN-D3M" secondAttribute="trailing" id="iok-7u-Ra1"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="zNN-St-UVu" id="X7z-yG-fq0"/>
