@@ -10,7 +10,7 @@ import UIKit
 
 class PhotoViewController: UIViewController {
     
-    @IBOutlet weak var photoSrcollView: UIScrollView!
+    @IBOutlet weak var photoScrollView: UIScrollView!
     @IBOutlet weak var photoImageView: UIImageView!
     
     var content: Content!
@@ -18,8 +18,8 @@ class PhotoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        photoSrcollView.minimumZoomScale = 1.0
-        photoSrcollView.maximumZoomScale = 10.0
+        photoScrollView.minimumZoomScale = 1.0
+        photoScrollView.maximumZoomScale = 10.0
 
         setupImage()
         
